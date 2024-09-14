@@ -7,7 +7,7 @@ volumes:
 
 # Всё отличие — заменяем build на image и указываем, какой образ использовать
 services:
-  db:
+  db1:
     image: postgres:13.10
     env_file: .env
     volumes:
