@@ -15,8 +15,6 @@ services:
   backend:
     image: daryakefir/taski_backend
     env_file: .env
-    depends_on:
-      - db
     volumes:
       - static_volume:/backend_static
   frontend:
